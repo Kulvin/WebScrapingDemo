@@ -1,7 +1,6 @@
-# import library
+# import libraries
 import requests
 from bs4 import BeautifulSoup
-
 
 inp = input("Enter letter")
 web = requests.get(
